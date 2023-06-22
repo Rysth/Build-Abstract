@@ -1,0 +1,62 @@
+/* FONTS CDN */
+@import url('https://fonts.cdnfonts.com/css/gt-america-trial');
+
+:root {
+  --CL-primary-blue: #4c5fd5;
+  --CL-primary-grayish: #dadbf1;
+  --CL-neutral-white: #fff;
+  --CL-neutral-black: #000;
+  --FF-primary: 'GT America Trial', sans-serif;
+  --FF-primary-variant: 'GT America Mono Trial', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+  width: calc(5em + 2vw);
+}
+
+.nav-link {
+  color: var(--CL-neutral-white);
+}
+
+.nav-link:hover {
+  color: var(--CL-primary-blue);
+}
+
+.btn-primary-sign {
+  background-color: var(--CL-primary-blue);
+  color: var(--CL-neutral-white);
+}
+
+.btn-primary-sign:hover {
+  background-color: var(--CL-neutral-white);
+  color: var(--CL-neutral-black);
+}
+
+/* Hero Section */
+#hero {
+  padding: calc(7em + 2vw) 0;
+  background-color: var(--CL-primary-grayish);
+}
+
+.hero-title {
+  font-size: calc(1.5rem + 2vw);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.form {
+  margin: 0.75em auto;
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+}
+
+.form-arrow-right {
+  position: absolute;
+  right: 1.5em;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
