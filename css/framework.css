@@ -1,0 +1,42 @@
+/* General Setup */
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--FF-primary);
+  min-height: 100vh;
+}
+
+picture,
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea {
+  width: 100%;
+}

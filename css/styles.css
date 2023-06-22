@@ -1,0 +1,7 @@
+/* FONTS CDN */
+@import url('https://fonts.cdnfonts.com/css/gt-america-trial');
+
+:root {
+  --FF-primary: 'GT America Trial', sans-serif;
+  --FF-primary-variant: 'GT America Mono Trial', sans-serif;
+}
