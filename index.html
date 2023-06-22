@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+    <nav class="navbar navbar-expand-lg navbar-light bg-black py-3">
       <div class="container d-flex align-content-center">
         <a class="navbar-brand" href="#"
           ><img src="images/SVG/brand.svg" alt="Abstract brand logo"
@@ -38,15 +38,30 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Help Center</a>
+              <a
+                class="nav-link"
+                target="_blank"
+                href="https://help.abstract.com/hc/en-us"
+                >Help Center</a
+              >
             </li>
           </ul>
           <div class="d-flex gap-2 float-end">
-            <a href="" class="btn btn-outline-light">Submit a request</a>
-            <a href="" class="btn btn-primary">Sign in</a>
+            <a
+              href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-Support"
+              target="_blank"
+              class="btn btn-outline-light"
+              >Submit a request</a
+            >
+            <a
+              href="https://help.abstract.com/hc/en-us/signin?return_to=https%3A%2F%2Fhelp.abstract.com%2Fhc%2Fen-us&locale=en-us"
+              target="_blank"
+              class="btn btn-primary-sign"
+              >Sign in</a
+            >
           </div>
         </div>
       </div>
@@ -55,7 +70,7 @@
     <main>
       <section id="hero">
         <div class="container d-flex flex-column text-center">
-          <h1 class="hero-title fs-1">How can we help?</h1>
+          <h1 class="hero-title">How can we help?</h1>
           <form class="form" action="#">
             <input
               class="form-control p-3 border border-1 border-dark shadow"

@@ -23,6 +23,16 @@
   color: var(--CL-primary-blue);
 }
 
+.btn-primary-sign {
+  background-color: var(--CL-primary-blue);
+  color: var(--CL-neutral-white);
+}
+
+.btn-primary-sign:hover {
+  background-color: var(--CL-neutral-white);
+  color: var(--CL-neutral-black);
+}
+
 /* Hero Section */
 #hero {
   padding: calc(7em + 2vw) 0;
@@ -30,12 +40,13 @@
 }
 
 .hero-title {
+  font-size: calc(1.5rem + 2vw);
   font-weight: 500;
   letter-spacing: 0;
 }
 
 .form {
-  margin: 1em auto;
+  margin: 0.75em auto;
   position: relative;
   width: 100%;
   max-width: 720px;
