@@ -97,3 +97,52 @@
 .service-link:hover {
   text-decoration: underline;
 }
+
+/* Footer Styles */
+.footer-title,
+.footer-subtitle {
+  color: var(--CL-neutral-white);
+  font-weight: bold;
+}
+
+.footer-image {
+  width: 9rem;
+  margin: 0.5em 0;
+}
+
+.footer-title {
+  font-size: 24px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.footer-list,
+.footer-sublist {
+  padding: 0.75em 0;
+  list-style: none;
+}
+
+.footer-link {
+  color: var(--CL-neutral-white);
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: var(--CL-neutral-white);
+}
+
+.footer-link:visited {
+  color: var(--CL-neutral-white);
+}
+
+.footer-copyright {
+  font-size: 20px;
+  color: var(--CL-neutral-white);
+  margin: 0;
+}
